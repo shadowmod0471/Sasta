@@ -1,4 +1,4 @@
-@import telebot
+import telebot
 import subprocess
 import requests
 import datetime
