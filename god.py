@@ -498,7 +498,7 @@ def welcome_rules(message):
 @bot.message_handler(commands=['video'])
 def welcome_rules(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name} 𝐇𝐞𝐫𝐞'𝐬 𝐓𝐡𝐞 𝐋𝐢𝐧𝐤 𝐎𝐟 𝐃𝐞𝐭𝐚𝐢𝐥𝐞𝐝 𝐕𝐞𝐝𝐢𝐨 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐃𝐨𝐒 𝐅𝐫𝐨𝐦 https://t.me/+wKq4IvrL3lowZWU1 :\nhttps://t.me/+wKq4IvrL3lowZWU1'''
+    response = f'''{user_name} 𝐇𝐞𝐫𝐞'𝐬 𝐓𝐡𝐞 𝐋𝐢𝐧𝐤 𝐎𝐟 𝐃𝐞𝐭𝐚𝐢𝐥𝐞𝐝 𝐕𝐞𝐝𝐢𝐨 𝐇𝐨𝐰 𝐓𝐨 𝐃𝐃𝐨𝐒 𝐅𝐫𝐨𝐦 :\nhttps://t.me/+wKq4IvrL3lowZWU1'''
     
     bot.reply_to(message, response)
 
